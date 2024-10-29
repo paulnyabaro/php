@@ -16,6 +16,7 @@ class Car{
 }
 
 $myCar = new Car('white', 'GLE', 'Mercedez Benz');
-var_dump($myCar)
+var_dump($myCar);
+echo("$myCar")
 
 ?>
