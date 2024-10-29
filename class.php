@@ -8,7 +8,7 @@ class Car{
     public function __construct($color, $model, $make){
         $this->color = $color;
         $this->model = $model;
-        $This->make = $make;
+        $this->make = $make;
     }
     public function message(){
         return 'My car is ' . $this->color . ' ' . $this->model . ' '. $this->make . '!';
