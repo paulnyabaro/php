@@ -40,4 +40,6 @@ echo MYCAR;
 // __TRAIT__	If used inside a trait, the trait name is returned.	
 // ClassName::class	Returns the name of the specified class and the name of the namespace, if any.
 
+
+
 ?>
