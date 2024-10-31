@@ -16,4 +16,7 @@ $d = $c < 10 ? "Hello" : "Good Bye";
 
 echo $c;
 
+
+
+
 ?>
