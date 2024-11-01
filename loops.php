@@ -33,4 +33,15 @@ while ($k < 6) {
   echo $k . ',';
 }
 
+// Do while loop
+
+$p = 1;
+echo '<br />Printing from do while loop<br />';
+
+do {
+  echo $p . ' ';
+  $p++;
+}
+while($p<10);
+
 ?>
