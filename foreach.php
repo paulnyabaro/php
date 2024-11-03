@@ -6,4 +6,11 @@ foreach ($members as $member => $position){
     echo ("$member : $position <br />");
 }
 
+$m = 2;
+do {
+    echo ("$m ,");
+    $m++;
+}
+while($m <= 10);
+
 ?>
