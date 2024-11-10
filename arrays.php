@@ -19,4 +19,9 @@ array_splice($cars, 1, 2);
 
 // First if the starting index then the number of items to be deleted
 
+// unset() can also be used
+
+unset($cars[0], $cars[1]);
+
+
 ?>
