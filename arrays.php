@@ -2,6 +2,9 @@
 
 // Adding to an array
 $fruits = array("Kiwi", "orange");
-echo "$fruits";
+array_push($fruits, "Lemon", "banana");
+
+
+var_dump($fruits);
 
 ?>
