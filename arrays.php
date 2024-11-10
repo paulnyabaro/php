@@ -23,8 +23,12 @@ array_splice($cars, 1, 2);
 
 unset($cars[0], $cars[1]);
 
-// Removing an item from an associative array
+// Removing an item from an associative array: unset and array_diff
 unset($cars["model"]);
+
+// array_diff function
+$newarray = array_diff($cars, ["Mustang", 1964]);
+
 
 
 ?>
