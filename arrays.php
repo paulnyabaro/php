@@ -15,6 +15,8 @@ $cars += ["color" => "red", "year" => 1964];
 
 // Deleting array items with array_splice
 
-array_splice($cars, 1, 1);
+array_splice($cars, 1, 2);
+
+// First if the starting index then the number of items to be deleted
 
 ?>
