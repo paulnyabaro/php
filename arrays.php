@@ -31,9 +31,21 @@ $newarray = array_diff($cars, ["Mustang", 1964]);
 
 // Note: The array_diff() function takes values as parameters, and not keys.
 
-// Removing the last item in an array: array_pop
+// Removing the last item in an array: array_pop()
 
-array_pop($newarray)
+array_pop($newarray);
 
+// Removing the first item in an array: array_shift()
 
+// PHP - Sort Functions For Arrays
+// In this chapter, we will go through the following PHP array sort functions:
+
+// sort() - sort arrays in ascending order
+// rsort() - sort arrays in descending order
+// asort() - sort associative arrays in ascending order, according to the value
+// ksort() - sort associative arrays in ascending order, according to the key
+// arsort() - sort associative arrays in descending order, according to the value
+// krsort() - sort associative arrays in descending order, according to the key
+
+array_shift($newarray);
 ?>
