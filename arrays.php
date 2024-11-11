@@ -55,6 +55,17 @@ array_shift($newarray);
 $car_stock = array(
     array("Volvo", 44, 32),
     array("Toyota", 17, 8),
-    array("BMW", 33, 23)
+    array("BMW", 33, 23),
+    array("Audi", 23, 11),
+    array("Volks Wagen", 12, 8)
 );
+
+for ($row = 0; $row < count($car_stock); $row++) {
+    echo "<p><b>Row number $row</b></p>";
+    echo "<ul>";
+      for ($col = 0; $col < 3; $col++) {
+        echo "<li>".$car_stock[$row][$col]."</li>";
+      }
+    echo "</ul>";
+  }
 ?>
