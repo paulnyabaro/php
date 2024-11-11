@@ -21,7 +21,7 @@ function myfunction() {
   echo $GLOBALS['x'];
 }
 
-myfunction()
+myfunction();
 
 
 // or 
