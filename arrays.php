@@ -31,7 +31,9 @@ $newarray = array_diff($cars, ["Mustang", 1964]);
 
 // Note: The array_diff() function takes values as parameters, and not keys.
 
+// Removing the last item in an array: array_pop
 
+array_pop($newarray)
 
 
 ?>
