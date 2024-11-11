@@ -48,4 +48,13 @@ array_pop($newarray);
 // krsort() - sort associative arrays in descending order, according to the key
 
 array_shift($newarray);
+
+
+// Multi-dimensional array
+
+$car_stock = array(
+    array("Volvo", 44, 32),
+    array("Toyota", 17, 8),
+    array("BMW", 33, 23)
+);
 ?>
