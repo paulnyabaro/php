@@ -7,5 +7,7 @@
 </head>
 <body>
     <h1>Data sent here</h1>
+    <p>Name: <?php echo $_REQUEST['name'] ?></p>
+    <p>Age: <?php echo $_REQUEST['age'] ?></p>
 </body>
 </html>
