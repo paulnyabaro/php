@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<script>
+<script type="text">
     function myfunction() {
         const xhttp = new XMLHttpRequest();
         xhttp.open("POST", "demo_phpfile.php");
@@ -26,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             document.getElementById("demo").innerHTML = this.responseText;
         }
         xhttp.send("fname=Mary");
-        }
     }
 </script>
 
