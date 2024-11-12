@@ -17,5 +17,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+<script>
+    function myfunction() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("POST", "demo_phpfile.php");
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.onload = function() {
+            document.getElementById("demo").innerHTML = this.responseText;
+        }
+        xhttp.send("fname=Mary");
+        }
+    }
+</script>
+
 </body>
 </html>
