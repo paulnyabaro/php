@@ -1,4 +1,4 @@
-<form action="">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Name: <input type="text" name="name">
     E-mail: <input type="text" name="email">
     Website: <input type="text" name="website">
